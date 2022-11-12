@@ -39,7 +39,7 @@ echo "alias lx='exa -lbHigUmuSa@ --time-style=long-iso --color-scale'" >> ~/.zsh
 
 
 # Applying in .zshrc
-# sed -i '/plugins=/s/(\([^(][^)]*\))/(\1 '"$EXTENSIONS"')/' ~/.zshrc
+sed -i '/plugins=/s/(\([^(][^)]*\))/(\1 '"$EXTENSIONS"')/' ~/.zshrc
 
 
 
